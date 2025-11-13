@@ -3,5 +3,11 @@ public class Programa {
         System.out.println("Hello World");
         System.out.println("Hello Arthur");
 
+        int resultado = soma(5, 7);
+        System.out.println("Resultado da soma: " + resultado);
     }
-} 
+
+    private static int soma(int a, int b) {
+        return a + b;
+    }
+}
